@@ -1,6 +1,6 @@
 base: ghcr.io/vanilla-os/nvidia:main
 name: VanillaFork T4G
-id: VanillaFork
+id: vanillafork
 labels:
   maintainer: Teh404Gal2
 args:
