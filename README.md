@@ -1,4 +1,4 @@
-# Personal VanillaOS Repo filled woth Au(tism)
+# Personal VanillaOS Repo filled with Gold [Au(tism)]
 
 Things Included Rn:
 - Nvidia
