@@ -1,0 +1,6 @@
+Types: deb
+URIs: https://pkg.cloudflareclient.com/
+Suites: bookworm
+Architectures: amd64
+Components: main
+Signed-By: /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg

@@ -1,6 +1,6 @@
-base: ghcr.io/vanilla-os/desktop:main
-name: Custom Vanilla Desktop
-id: vanilla-custom
+base: ghcr.io/vanilla-os/nvidia:main
+name: Nvidia and cloudflare warp Vanilla OS image
+id: vanilla-nv-cfwarp
 labels:
   maintainer: self-maintained
 args:
@@ -15,16 +15,11 @@ modules:
 
 # Put your custom actions behind this comment
 
-- name: example-packages
+- name: cloudflare-warp
   type: apt
   source:
     packages:
-    - vim
-
-- name: example-commands
-  type: shell
-  commands:
-  - echo Example output
+    - cloudflare-warp
 
 - name: example-modules
   type: includes
