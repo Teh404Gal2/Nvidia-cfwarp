@@ -1,8 +1,8 @@
 base: ghcr.io/vanilla-os/nvidia:main
-name: Nvidia and cloudflare warp Vanilla OS image
-id: vanilla-nv-cfwarp
+name: VanillaFork T4G
+id: VanillaFork
 labels:
-  maintainer: self-maintained
+  maintainer: Teh404Gal2
 args:
   DEBIAN_FRONTEND: noninteractive
 

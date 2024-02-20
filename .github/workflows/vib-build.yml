@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  CUSTOM_IMAGE_NAME: vanilla-nv-cfwarp
+  CUSTOM_IMAGE_NAME: VanillaFork
 
 jobs:
   check_update:
