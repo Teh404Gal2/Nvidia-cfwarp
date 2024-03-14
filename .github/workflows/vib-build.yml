@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  CUSTOM_IMAGE_NAME: vanillaforkNV
+  CUSTOM_IMAGE_NAME: vanillafork-nv
 
 jobs:
   check_update:
