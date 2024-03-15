@@ -29,7 +29,7 @@ modules:
 - name: autocpu-freq
   type: shell
   commands:
-  - git clone https://github.com/AdnanHodzic/auto-cpufreq.git /tmp/acf
+  - git clone https://github.com/teh404gal2/auto-cpufreq.git /tmp/acf
   - cd /tmp/acf
   - yes i | bash auto-cpufreq-installer
 
