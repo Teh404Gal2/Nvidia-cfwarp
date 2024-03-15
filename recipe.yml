@@ -21,6 +21,12 @@ modules:
     packages:
     - cloudflare-warp
 
+- name: systemd-homed
+  type: apt
+  source:
+    packages:
+    - systemd-homed
+
 - name: example-modules
   type: includes
   includes:
@@ -50,8 +56,8 @@ modules:
     - name: remove-prev-fsguard
       type: shell
       commands:
-        - rm -rf /FsGuard 
-        - rm -f ./minisign.pub ./minisign.key 
+        - rm -rf /FsGuard
+        - rm -f ./minisign.pub ./minisign.key
         - chmod +x /usr/sbin/init
 
 - name: cleanup2
