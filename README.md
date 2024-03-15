@@ -2,4 +2,4 @@
 
 Things Included Rn:
 - Cloudflare Warp
-- Sysstemd-Homed
+- Systemd-Homed
