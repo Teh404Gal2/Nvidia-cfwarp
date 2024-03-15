@@ -31,7 +31,7 @@ modules:
   commands:
   - git clone https://github.com/AdnanHodzic/auto-cpufreq.git /tmp/acf
   - cd /tmp/acf
-  - bash auto-cpufreq-installer
+  - yes i | bash auto-cpufreq-installer
 
 - name: example-modules
   type: includes
