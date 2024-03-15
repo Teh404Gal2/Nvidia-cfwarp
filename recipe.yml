@@ -21,6 +21,18 @@ modules:
     packages:
     - cloudflare-warp
 
+- name: git
+  type: apt
+  source:
+    packages:
+    - git
+- name: autocpu-freq
+  type: shell
+  commands:
+  - git clone https://github.com/AdnanHodzic/auto-cpufreq.git /tmp/acf
+  - cd /tmp/acf
+  - bash auto-cpufreq-installer
+
 - name: example-modules
   type: includes
   includes:
