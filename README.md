@@ -4,5 +4,7 @@ feel free to fork :3
 
 
 ### Things Included Rn:
+- USB utils
+- Fingerprint Stuff
 - Cloudflare Warp
 - Systemd-Homed
