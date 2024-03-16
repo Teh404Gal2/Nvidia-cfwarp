@@ -27,6 +27,13 @@ modules:
     packages:
     - systemd-homed
 
+- name: fprintd
+  type: apt
+  source:
+    packages:
+    - fprintd
+    - libpam-fprintd
+
 - name: example-modules
   type: includes
   includes:
