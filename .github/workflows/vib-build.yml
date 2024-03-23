@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  CUSTOM_IMAGE_NAME: vfork
+  CUSTOM_IMAGE_NAME: vfork-exp
 
 jobs:
   check_update:
