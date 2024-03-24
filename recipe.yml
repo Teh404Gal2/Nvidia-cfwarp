@@ -40,6 +40,12 @@ modules:
     packages:
     - usbutils
 
+- name: fish
+  type: apt
+  source:
+    packages:
+    - fish
+
 - name: example-modules
   type: includes
   includes:
