@@ -46,10 +46,12 @@ modules:
     packages:
     - fish
 
-- name: glibstuff
-  type: shell
-  commands:
-  - glib-compile-schemas /usr/share/glib-2.0/schemas/
+#below code is held in comment for emergency purposes
+
+#- name: glibstuff
+#  type: shell
+#  commands:
+#  - glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 - name: example-modules
   type: includes
