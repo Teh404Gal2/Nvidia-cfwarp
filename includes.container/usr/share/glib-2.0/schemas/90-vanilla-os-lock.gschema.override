@@ -1,0 +1,4 @@
+[org.gnome.desktop.screensaver]
+lock-enabled=true
+[org.gnome.desktop.lockdown]
+disable-lock-screen=false
