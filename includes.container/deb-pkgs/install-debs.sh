@@ -12,5 +12,5 @@ for file in /deb-pkgs/*; do
 
     echo "installing $file"
 
-    apt-get install -y $file
+    apt-get install -y --allow-downgrades $file
 done
