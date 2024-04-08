@@ -1,16 +1,19 @@
 #!/bin/bash
 set -e
-for file in /deb-pkgs/*; do
-    if [ ! -f "$file" ]; then
-        continue
-    fi
+#this will only help me but screw it
+apt-get install -y *.deb
 
-    extension=${file##*.}
-    if [ $extension != "deb" ]; then
-        continue
-    fi
-
-    echo "installing $file"
-
-    apt-get install -y $file
-done
+#for file in /deb-pkgs/*; do
+#    if [ ! -f "$file" ]; then
+#        continue
+#    fi
+#
+#    extension=${file##*.}
+#    if [ $extension != "deb" ]; then
+#        continue
+#    fi
+#
+#    echo "installing $file"
+#
+#    apt-get install -y $file
+#done
