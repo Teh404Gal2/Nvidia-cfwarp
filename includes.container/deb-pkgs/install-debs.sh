@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 #this will only help me but screw it
-apt-get install -y *.deb
+apt-get install -y /deb-pkgs/*.deb
 
 #for file in /deb-pkgs/*; do
 #    if [ ! -f "$file" ]; then
